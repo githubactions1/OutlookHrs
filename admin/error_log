@@ -1,0 +1,40 @@
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'santha'@'localhost' (using password: YES) in /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php on line 27
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP Stack trace:
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP   1. {main}() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:0
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP   2. proj_fxns->login() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:51
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP   3. proj_fxns->dbConnect() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:173
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP   4. mysqli->__construct() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:27
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php on line 174
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP Stack trace:
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP   1. {main}() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:0
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP   2. proj_fxns->login() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:51
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP   3. mysqli->real_escape_string() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:174
+[23-Jul-2021 18:27:09 Asia/Calcutta] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php on line 174
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP Stack trace:
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   1. {main}() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:0
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   2. proj_fxns->login() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:51
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   3. mysqli->real_escape_string() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:174
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php on line 67
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP Stack trace:
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   1. {main}() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:0
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   2. proj_fxns->login() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:51
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   3. proj_fxns->select() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:175
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   4. mysqli->query() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:67
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP Warning:  proj_fxns::select(): Couldn't fetch mysqli in /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php on line 69
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP Stack trace:
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   1. {main}() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:0
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   2. proj_fxns->login() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:51
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   3. proj_fxns->select() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:175
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP Warning:  file_put_contents(elog/db_error.log): failed to open stream: No such file or directory in /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php on line 145
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP Stack trace:
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   1. {main}() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:0
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   2. proj_fxns->login() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:51
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   3. proj_fxns->select() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:175
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   4. proj_fxns->db_error_note() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:69
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   5. file_put_contents() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:145
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php on line 75
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP Stack trace:
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   1. {main}() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:0
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   2. proj_fxns->login() /home/blueappletechno/public_html/holisticeducational.com/education_admin/login.php:51
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   3. proj_fxns->select() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:175
+[23-Jul-2021 18:27:10 Asia/Calcutta] PHP   4. mysqli->close() /home/blueappletechno/public_html/holisticeducational.com/education_admin/fun_inc/proj_functions.php:75
